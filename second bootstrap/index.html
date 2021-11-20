@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.js" />
+    <link rel="stylesheet" type="text/html" href="about.html" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
+    <title>Second Bootstrap project</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container mt-2">
+                    <img src="images/logo.jpg" style="width:40px;height:40px;" alt="banner"/>
+                <ul class="navbar-nav">
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="gymcarousel" class="carousel slide" data-bs-ride="carousel">
+  
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#gymcarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#gymcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+            
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" style="width: 1478px; height:731px;" src="images/diposit.jpg" alt="gym">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h5 class="text-dark" style="font-size: 30px;">Practice hard, play strong, pain is glory.</h5>
+                    <p class="text-dark" style="font-size: 60px;">Solutions for moving better and feeling althier.</p>
+                    <button style="border-radius: 10px; background-color:#5EB6E1; width:301px; height:92px;">Get Started</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" style="width: 1478px; height:731px;" src="images/diposit.jpg" alt="gym">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h5 style="font-size: 30px;">Practice hard, play strong, pain is glory.</h5>
+                    <p style="font-size: 60px;">Solutions for moving better and feeling althier.</p>
+                    <button style="border-radius: 10px; background-color:#5EB6E1; width:301px; height:92px;">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#gymcarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#gymcarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section>
+        <div class="container mt-5 bg-dark">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 380px;">
+                        <img class="card-img" style="filter: brightness(60%);" src="images/crush.jpg" alt="fit">
+                        <div class="card-img-overlay text-white text-center">
+                          <h4 class="card-title">Body Building With Classic</h4>
+                          <p class="card-text lh-sm">Keep Training To Achieve Your Goals.</p>
+                          <a href="#" class="card-link btn btn-light mt-auto">$60*/M</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 380px;">
+                        <img class="card-img" style="filter: brightness(60%);" src="images/crush.jpg" alt="fit">
+                        <div class="card-img-overlay text-white text-center">
+                          <h4 class="card-title">Body Building With Standard</h4>
+                          <p class="card-text lh-sm">Train with the best trainers</p>
+                          <a href="#" class="card-link btn btn-light mt-auto">$120*/M</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 380px;">
+                        <img class="card-img" style="filter: brightness(60%);" src="images/crush.jpg" alt="fit">
+                        <div class="card-img-overlay text-white text-center">
+                          <h4 class="card-title">Body Building With Premium</h4>
+                          <p class="card-text lh-sm">24/7 Training</p>
+                          <a href="#" class="card-link btn btn-light mt-auto">$200*/M</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
